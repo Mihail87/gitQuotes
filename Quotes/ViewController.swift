@@ -10,16 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var quoteLabel: UILabel!
+    @IBOutlet weak var showQuote: UIButton!
+    
+    
+    let quotesProvider = QuoteModel()
+    let colorsProvider = BackgroundColorModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        quoteLabel.text = quotesProvider.getRandomQuote()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func newQuote() {
+        quoteLabel.text = quotesProvider.getRandomQuote()
+        let randomColor = colorsProvider.getRandomColor()
+        view.backgroundColor = randomColor
+        showQuote.tintColor = randomColor
+    }
 }
 

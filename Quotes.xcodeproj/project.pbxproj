@@ -12,6 +12,8 @@
 		89A4AD4A1FCB077800849067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A4AD481FCB077800849067 /* Main.storyboard */; };
 		89A4AD4C1FCB077800849067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A4AD4B1FCB077800849067 /* Assets.xcassets */; };
 		89A4AD4F1FCB077800849067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A4AD4D1FCB077800849067 /* LaunchScreen.storyboard */; };
+		89A4AD571FCC5ADC00849067 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4AD561FCC5ADC00849067 /* QuoteModel.swift */; };
+		89A4AD591FCC6ACE00849067 /* BackgroundColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A4AD581FCC6ACE00849067 /* BackgroundColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		89A4AD4B1FCB077800849067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A4AD4E1FCB077800849067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A4AD501FCB077800849067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A4AD561FCC5ADC00849067 /* QuoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		89A4AD581FCC6ACE00849067 /* BackgroundColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				89A4AD4B1FCB077800849067 /* Assets.xcassets */,
 				89A4AD4D1FCB077800849067 /* LaunchScreen.storyboard */,
 				89A4AD501FCB077800849067 /* Info.plist */,
+				89A4AD561FCC5ADC00849067 /* QuoteModel.swift */,
+				89A4AD581FCC6ACE00849067 /* BackgroundColorModel.swift */,
 			);
 			path = Quotes;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					89A4AD401FCB077700849067 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V7S7GB28P7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A4AD571FCC5ADC00849067 /* QuoteModel.swift in Sources */,
+				89A4AD591FCC6ACE00849067 /* BackgroundColorModel.swift in Sources */,
 				89A4AD471FCB077800849067 /* ViewController.swift in Sources */,
 				89A4AD451FCB077800849067 /* AppDelegate.swift in Sources */,
 			);
@@ -262,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7S7GB28P7;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mihaileonte.Quotes;
@@ -274,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7S7GB28P7;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mihaileonte.Quotes;
