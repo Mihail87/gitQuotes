@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var quoteLabel: UILabel!
     @IBOutlet weak var showQuote: UIButton!
     
-    
+    //some comment
     let quotesProvider = QuoteModel()
     let colorsProvider = BackgroundColorModel()
     
